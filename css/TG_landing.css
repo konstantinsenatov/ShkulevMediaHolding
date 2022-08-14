@@ -1,0 +1,1341 @@
+.tg_landing button {
+  transition: all 0.3s ease 0s;
+}
+.tg_landing button:hover {
+  opacity: 0.7;
+}
+.tg_landing .title {
+  font-family: 'Mabry Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 80%;
+  color: #000000;
+}
+@media (max-width: 1919px) {
+  .tg_landing .title {
+    font-size: 4.169vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .title {
+    font-size: 11.215vw;
+    line-height: 100%;
+  }
+}
+.tg_landing .intro {
+  padding: 508px 0 120px;
+  background: url('../img/TG_landing/main-img.jpg') top right / cover no-repeat;
+}
+@media (max-width: 1919px) {
+  .tg_landing .intro {
+    padding: 26.472vw 0 6.253vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .intro {
+    padding: 54.206vw 0 9.346vw;
+    background: url('../img/TG_landing/main-img1.jpg') center / cover no-repeat;
+  }
+}
+.tg_landing .intro .intro__title {
+  width: 820px;
+  max-width: 100%;
+  font-family: 'Mabry Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 100%;
+  color: #FFFFFF;
+}
+@media (max-width: 1919px) {
+  .tg_landing .intro .intro__title {
+    width: 42.731vw;
+    font-size: 4.169vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .intro .intro__title {
+    width: 57.944vw;
+    font-size: 5.607vw;
+    line-height: 133%;
+  }
+}
+.tg_landing .digits {
+  margin-top: 80px;
+}
+@media (max-width: 1919px) {
+  .tg_landing .digits {
+    margin-top: 4.169vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .digits {
+    margin-top: 9.346vw;
+  }
+}
+.tg_landing .digits .digits__text {
+  font-family: 'Mabry Pro';
+  font-style: normal;
+  color: #000000;
+}
+.tg_landing .digits .digits__text p:nth-child(1) {
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 150%;
+}
+@media (max-width: 1919px) {
+  .tg_landing .digits .digits__text p:nth-child(1) {
+    font-size: 1.668vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .digits .digits__text p:nth-child(1) {
+    font-size: 5.607vw;
+    line-height: 133%;
+  }
+}
+.tg_landing .digits .digits__text p:nth-child(2) {
+  margin-top: 16px;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 133%;
+}
+@media (max-width: 1919px) {
+  .tg_landing .digits .digits__text p:nth-child(2) {
+    margin-top: 0.834vw;
+    font-size: 1.251vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .digits .digits__text p:nth-child(2) {
+    font-size: 4.673vw;
+    line-height: 160%;
+    margin-top: 3.738vw;
+  }
+}
+.tg_landing .digits .digits__block {
+  margin-top: 40px;
+}
+@media (max-width: 1919px) {
+  .tg_landing .digits .digits__block {
+    margin-top: 2.084vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .digits .digits__block {
+    margin-top: 9.346vw;
+  }
+}
+.tg_landing .digits .digits__block .digits__items {
+  display: flex;
+}
+@media (max-width: 768px) {
+  .tg_landing .digits .digits__block .digits__items {
+    flex-wrap: wrap;
+    margin: -3.738vw -2.336vw;
+  }
+}
+.tg_landing .digits .digits__block .digits__items .digits__item:not(:first-child) {
+  margin-left: 80px;
+}
+@media (max-width: 1919px) {
+  .tg_landing .digits .digits__block .digits__items .digits__item:not(:first-child) {
+    margin-left: 4.169vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .digits .digits__block .digits__items .digits__item:not(:first-child) {
+    margin-left: 0;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .digits .digits__block .digits__items .digits__item {
+    flex: 0 1 50%;
+    padding: 3.738vw 2.336vw;
+  }
+  .tg_landing .digits .digits__block .digits__items .digits__item:nth-child(1) {
+    order: 3;
+  }
+  .tg_landing .digits .digits__block .digits__items .digits__item:nth-child(2) {
+    order: 2;
+  }
+  .tg_landing .digits .digits__block .digits__items .digits__item:nth-child(3) {
+    order: 1;
+  }
+}
+.tg_landing .digits .digits__block .digits__items .digits__item .digits__column {
+  display: flex;
+  flex-direction: column;
+}
+.tg_landing .digits .digits__block .digits__items .digits__item .digits__column .digits__count {
+  font-family: 'Mabry Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 128px;
+  line-height: 100%;
+  color: #284CA6;
+}
+@media (max-width: 1919px) {
+  .tg_landing .digits .digits__block .digits__items .digits__item .digits__column .digits__count {
+    font-size: 6.67vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .digits .digits__block .digits__items .digits__item .digits__column .digits__count {
+    font-size: 18.692vw;
+  }
+  .tg_landing .digits .digits__block .digits__items .digits__item .digits__column .digits__count span:nth-child(2) {
+    display: none;
+  }
+}
+.tg_landing .digits .digits__block .digits__items .digits__item .digits__column > span {
+  font-family: 'Mabry Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  color: #ADADAD;
+}
+.tg_landing .digits .digits__block .digits__items .digits__item .digits__column > span:nth-child(2) {
+  display: block;
+}
+.tg_landing .digits .digits__block .digits__items .digits__item .digits__column > span:nth-child(3) {
+  display: none;
+}
+@media (max-width: 1919px) {
+  .tg_landing .digits .digits__block .digits__items .digits__item .digits__column > span {
+    font-size: 1.251vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .digits .digits__block .digits__items .digits__item .digits__column > span {
+    font-size: 4.206vw;
+    line-height: 133%;
+  }
+  .tg_landing .digits .digits__block .digits__items .digits__item .digits__column > span:nth-child(2) {
+    display: none;
+  }
+  .tg_landing .digits .digits__block .digits__items .digits__item .digits__column > span:nth-child(3) {
+    display: block;
+  }
+}
+.tg_landing .cards {
+  margin-top: 80px;
+}
+@media (max-width: 1919px) {
+  .tg_landing .cards {
+    margin-top: 4.169vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .cards {
+    margin-top: 0;
+  }
+}
+.tg_landing .cards .cards__items {
+  position: relative;
+  margin: -20px -30px;
+}
+@media (max-width: 1919px) {
+  .tg_landing .cards .cards__items {
+    margin: -1.042vw -1.563vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .cards .cards__items {
+    margin: -4.673vw 0 0;
+  }
+}
+.tg_landing .cards .cards__items .cards__row {
+  position: relative;
+}
+.tg_landing .cards .cards__items .cards__row .cards__item {
+  padding: 20px 30px;
+  width: 33.333%;
+}
+@media (max-width: 1919px) {
+  .tg_landing .cards .cards__items .cards__row .cards__item {
+    padding: 1.042vw 1.563vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .cards .cards__items .cards__row .cards__item {
+    width: 100%;
+    padding: 0;
+    margin-top: 10.6689vw;
+  }
+}
+.tg_landing .cards .cards__items .cards__row .cards__item .cards__column {
+  width: 100%;
+}
+.tg_landing .cards .cards__items .cards__row .cards__item .cards__column .cards__img {
+  height: 380px;
+}
+@media (max-width: 1919px) {
+  .tg_landing .cards .cards__items .cards__row .cards__item .cards__column .cards__img {
+    height: 19.802vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .cards .cards__items .cards__row .cards__item .cards__column .cards__img {
+    height: 74.766vw;
+  }
+}
+.tg_landing .cards .cards__items .cards__row .cards__item .cards__column .cards__price {
+  margin-top: 24px;
+  font-family: 'Mabry Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 120%;
+  text-align: center;
+  color: #000000;
+}
+@media (max-width: 1919px) {
+  .tg_landing .cards .cards__items .cards__row .cards__item .cards__column .cards__price {
+    margin-top: 1.251vw;
+    font-size: 2.084vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .cards .cards__items .cards__row .cards__item .cards__column .cards__price {
+    margin-top: 4.607vw;
+    font-size: 9.346vw;
+  }
+}
+.tg_landing .cards .cards__items .cards__btn-add-wrapper {
+  padding: 20px 30px;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 33.333%;
+}
+@media (max-width: 1919px) {
+  .tg_landing .cards .cards__items .cards__btn-add-wrapper {
+    padding: 1.042vw 1.563vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .cards .cards__items .cards__btn-add-wrapper {
+    padding: 0;
+    width: 100%;
+    position: relative;
+    margin-top: 8.45vw;
+  }
+}
+.tg_landing .cards .cards__items .cards__btn-add-wrapper .cards__btn-add {
+  cursor: pointer;
+  width: 100%;
+  height: 380px;
+  background: #284CA6;
+}
+@media (max-width: 1919px) {
+  .tg_landing .cards .cards__items .cards__btn-add-wrapper .cards__btn-add {
+    height: 19.802vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .cards .cards__items .cards__btn-add-wrapper .cards__btn-add {
+    height: 39.252vw;
+  }
+}
+.tg_landing .cards .cards__items .cards__btn-add-wrapper .cards__btn-add span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -70%);
+  font-family: 'Mabry Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 100%;
+  text-align: center;
+  color: #FFFFFF;
+}
+@media (max-width: 1919px) {
+  .tg_landing .cards .cards__items .cards__btn-add-wrapper .cards__btn-add span {
+    font-size: 2.918vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .cards .cards__items .cards__btn-add-wrapper .cards__btn-add span {
+    transform: translate(-50%, -50%);
+    font-size: 7.477vw;
+    line-height: 125%;
+  }
+}
+.tg_landing .cards .cards__items .cards__btn-add-wrapper > span {
+  display: block;
+  margin-top: 24px;
+  font-family: 'Mabry Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 120%;
+  text-align: center;
+  color: #000000;
+  opacity: 0;
+  pointer-events: none;
+}
+@media (max-width: 1919px) {
+  .tg_landing .cards .cards__items .cards__btn-add-wrapper > span {
+    margin-top: 1.251vw;
+    font-size: 2.084vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .cards .cards__items .cards__btn-add-wrapper > span {
+    display: none;
+  }
+}
+.tg_landing .card {
+  margin-top: 120px;
+}
+@media (max-width: 1919px) {
+  .tg_landing .card {
+    margin-top: 6.253vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .card {
+    margin-top: 9.346vw;
+  }
+}
+.tg_landing .card .card__row {
+  margin-top: 40px;
+  display: flex;
+}
+@media (max-width: 1919px) {
+  .tg_landing .card .card__row {
+    margin-top: 2.084vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .card .card__row {
+    margin-top: 3.738vw;
+    flex-wrap: wrap;
+  }
+}
+.tg_landing .card .card__row .card__img {
+  flex: 0 1 680px;
+  padding-top: 80%;
+}
+@media (max-width: 1919px) {
+  .tg_landing .card .card__row .card__img {
+    flex: 0 1 35.435vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .card .card__row .card__img {
+    flex: 1 1 100%;
+    padding-top: 168%;
+  }
+}
+.tg_landing .card .card__row .card__body {
+  flex: 1 1 auto;
+  margin-left: 80px;
+}
+@media (max-width: 1919px) {
+  .tg_landing .card .card__row .card__body {
+    margin-left: 4.169vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .card .card__row .card__body {
+    margin-top: 5.607vw;
+    margin-left: 0;
+  }
+}
+.tg_landing .card .card__row .card__body .card__subtitle {
+  font-family: 'Mabry Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 56px;
+  line-height: 100%;
+  color: #000000;
+}
+@media (max-width: 1919px) {
+  .tg_landing .card .card__row .card__body .card__subtitle {
+    font-size: 2.918vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .card .card__row .card__body .card__subtitle {
+    font-size: 9.346vw;
+  }
+}
+.tg_landing .card .card__row .card__body .card__body--title {
+  margin-top: 40px;
+  font-family: 'Mabry Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 120%;
+  color: #000000;
+}
+@media (max-width: 1919px) {
+  .tg_landing .card .card__row .card__body .card__body--title {
+    margin-top: 2.084vw;
+    font-size: 2.084vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .card .card__row .card__body .card__body--title {
+    margin-top: 5.607vw;
+    font-size: 7.477vw;
+    line-height: 125%;
+  }
+}
+.tg_landing .card .card__row .card__body .card__body--items {
+  width: 520px;
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+@media (max-width: 1919px) {
+  .tg_landing .card .card__row .card__body .card__body--items {
+    width: 27.097vw;
+    margin-top: 1.251vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .card .card__row .card__body .card__body--items {
+    width: 70.327vw;
+    margin-top: 3.738vw;
+  }
+}
+.tg_landing .card .card__row .card__body .card__body--items .card__body--item .card__body--count {
+  font-family: 'Mabry Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 80px;
+  line-height: 100%;
+  color: #284CA6;
+}
+@media (max-width: 1919px) {
+  .tg_landing .card .card__row .card__body .card__body--items .card__body--item .card__body--count {
+    font-size: 4.169vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .card .card__row .card__body .card__body--items .card__body--item .card__body--count {
+    font-size: 11.215vw;
+  }
+}
+.tg_landing .card .card__row .card__body .card__body--items .card__body--item > span {
+  margin-top: 8px;
+  display: block;
+  font-family: 'Mabry Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 100%;
+  color: #ADADAD;
+}
+@media (max-width: 1919px) {
+  .tg_landing .card .card__row .card__body .card__body--items .card__body--item > span {
+    margin-top: 0.417vw;
+    font-size: 1.251vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .card .card__row .card__body .card__body--items .card__body--item > span {
+    margin-top: 1.869vw;
+    font-size: 4.673vw;
+    line-height: 140%;
+  }
+}
+.tg_landing .card .card__row .card__body .card__body--btn {
+  cursor: pointer;
+  margin-top: 40px;
+  width: 100%;
+  height: 80px;
+  background: #284CA6;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Mabry Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 125%;
+  color: #FFFFFF;
+}
+@media (max-width: 1919px) {
+  .tg_landing .card .card__row .card__body .card__body--btn {
+    margin-top: 2.084vw;
+    height: 4.169vw;
+    border-radius: 0.417vw;
+    font-size: 1.668vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .card .card__row .card__body .card__body--btn {
+    height: 14.953vw;
+    margin-top: 5.607vw;
+    border-radius: 1.869vw;
+    font-size: 5.607vw;
+    line-height: 133%;
+  }
+}
+.tg_landing .block-form {
+  margin-top: 40px;
+}
+@media (max-width: 1919px) {
+  .tg_landing .block-form {
+    margin-top: 2.084vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .block-form {
+    margin-top: 3.738vw;
+  }
+}
+.tg_landing .radiobuttons__item {
+  margin-top: 24px;
+  padding-left: 56px;
+  position: relative;
+  font-family: 'Mabry Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 125%;
+  color: #000000;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+.tg_landing .radiobuttons__item:hover {
+  opacity: 0.7;
+}
+@media (max-width: 1919px) {
+  .tg_landing .radiobuttons__item {
+    margin-top: 1.251vw;
+    padding-left: 2.918vw;
+    font-size: 1.668vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .radiobuttons__item {
+    margin-top: 0;
+    padding-left: 13.084vw;
+    line-height: 133%;
+    font-size: 5.607vw;
+  }
+  .tg_landing .radiobuttons__item:not(:first-child) {
+    margin-top: 5.607vw;
+  }
+}
+.tg_landing .radiobuttons__item span {
+  font-size: 24px;
+  line-height: 125%;
+  color: #adadad;
+}
+@media (max-width: 1919px) {
+  .tg_landing .radiobuttons__item span {
+    font-size: 1.251vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .radiobuttons__item span {
+    font-size: 4.673vw;
+    line-height: 133%;
+  }
+}
+.tg_landing .radiobuttons__item.active:after {
+  transform: scale(1);
+}
+.tg_landing .radiobuttons__item:before {
+  content: '';
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: transparent;
+  border-radius: 50%;
+  border: 4px solid #284CA6;
+}
+@media (max-width: 1919px) {
+  .tg_landing .radiobuttons__item:before {
+    width: 2.084vw;
+    height: 2.084vw;
+    border: 0.208vw solid #284CA6;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .radiobuttons__item:before {
+    width: 7.477vw;
+    height: 7.477vw;
+    border: 0.935vw solid #284CA6;
+  }
+}
+.tg_landing .radiobuttons__item:after {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: 8px;
+  top: 8px;
+  background: #284CA6;
+  content: '';
+  border-radius: 50%;
+  transition: all 0.3s ease 0s;
+  transform: scale(0);
+}
+@media (max-width: 1919px) {
+  .tg_landing .radiobuttons__item:after {
+    width: 1.251vw;
+    height: 1.251vw;
+    top: 0.417vw;
+    left: 0.417vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .radiobuttons__item:after {
+    width: 3.738vw;
+    height: 3.738vw;
+    top: 1.869vw;
+    left: 1.869vw;
+  }
+}
+.tg_landing .radiobuttons__item input {
+  display: none;
+}
+.tg_landing .basket {
+  margin-top: 120px;
+}
+@media (max-width: 1919px) {
+  .tg_landing .basket {
+    margin-top: 6.253vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .basket {
+    margin-top: 9.346vw;
+  }
+}
+.tg_landing .basket .basket__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.tg_landing .basket .basket__header .basket__link {
+  font-family: 'Mabry Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 133%;
+  text-align: center;
+  color: #284CA6;
+  position: relative;
+  transition: all 0.3s ease 0s;
+}
+.tg_landing .basket .basket__header .basket__link:hover {
+  opacity: 0.7;
+}
+@media (max-width: 1919px) {
+  .tg_landing .basket .basket__header .basket__link {
+    font-size: 1.251vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .basket .basket__header .basket__link {
+    display: inline-block;
+    text-align: right;
+    width: 27.336vw;
+    font-size: 4.673vw;
+    line-height: 120%;
+  }
+  .tg_landing .basket .basket__header .basket__link::after {
+    display: none;
+  }
+  .tg_landing .basket .basket__header .basket__link span {
+    position: relative;
+  }
+  .tg_landing .basket .basket__header .basket__link span::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.234vw;
+    background-color: #284CA6;
+  }
+}
+.tg_landing .basket .basket__header .basket__link::after {
+  content: '';
+  position: absolute;
+  bottom: 5px;
+  left: 0;
+  width: 100%;
+  height: 1px;
+  background-color: #284CA6;
+}
+@media (max-width: 1919px) {
+  .tg_landing .basket .basket__header .basket__link::after {
+    bottom: 0.261vw;
+    height: 0.052vw;
+  }
+}
+.tg_landing .basket .basket__items {
+  margin-top: 48px;
+}
+@media (max-width: 1919px) {
+  .tg_landing .basket .basket__items {
+    margin-top: 2.501vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .basket .basket__items {
+    margin-top: 5.607vw;
+  }
+}
+.tg_landing .basket .basket__items .basket__item {
+  margin-top: 20px;
+  background: #F1F4F7;
+  padding: 60px 40px 60px 64px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Mabry Pro';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 125%;
+  color: #000000;
+}
+@media (max-width: 1919px) {
+  .tg_landing .basket .basket__items .basket__item {
+    margin-top: 1.251vw;
+    padding: 3.544vw 2.084vw 3.544vw 3.335vw;
+    font-size: 1.668vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .basket .basket__items .basket__item {
+    margin-top: 0;
+    padding: 5.607vw;
+    font-size: 5.607vw;
+    line-height: 133%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+  }
+  .tg_landing .basket .basket__items .basket__item:not(:first-child) {
+    margin-top: 13.28vw;
+  }
+}
+.tg_landing .basket .basket__items .basket__item .basket__item--icon {
+  width: 211px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media (max-width: 1919px) {
+  .tg_landing .basket .basket__items .basket__item .basket__item--icon {
+    width: 10.995vw;
+  }
+  .tg_landing .basket .basket__items .basket__item .basket__item--icon img {
+    width: 8.338vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .basket .basket__items .basket__item .basket__item--icon {
+    flex: 1 1 100%;
+    justify-content: flex-start;
+    width: auto;
+  }
+  .tg_landing .basket .basket__items .basket__item .basket__item--icon img {
+    width: auto;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .basket .basket__items .basket__item .basket__item--name {
+    flex: 1 1 100%;
+    margin-top: 5.607vw;
+  }
+}
+.tg_landing .basket .basket__items .basket__item .basket__item--count {
+  display: flex;
+  align-items: center;
+  height: 80px;
+}
+@media (max-width: 1919px) {
+  .tg_landing .basket .basket__items .basket__item .basket__item--count {
+    height: 4.169vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .basket .basket__items .basket__item .basket__item--count {
+    height: 14.019vw;
+    flex: 1 1 50%;
+    margin: 0 -3.738vw;
+    margin-top: 5.607vw;
+  }
+}
+.tg_landing .basket .basket__items .basket__item .basket__item--count button {
+  margin: 0 16px;
+  cursor: pointer;
+  width: 16px;
+  height: 16px;
+  font-size: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+}
+@media (max-width: 1919px) {
+  .tg_landing .basket .basket__items .basket__item .basket__item--count button {
+    margin: 0 0.834vw;
+    width: 0.834vw;
+    height: 0.834vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .basket .basket__items .basket__item .basket__item--count button {
+    margin: 0 3.738vw;
+    width: 3.738vw;
+    height: 3.738vw;
+  }
+}
+.tg_landing .basket .basket__items .basket__item .basket__item--count input {
+  outline: none;
+  height: 100%;
+  width: 100px;
+  background: #FFFFFF;
+  text-align: center;
+  border-radius: 12px;
+  font-family: 'Mabry Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 125%;
+  color: #000000;
+}
+@media (max-width: 1919px) {
+  .tg_landing .basket .basket__items .basket__item .basket__item--count input {
+    width: 5.211vw;
+    border-radius: 0.625vw;
+    font-size: 1.668vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .basket .basket__items .basket__item .basket__item--count input {
+    width: 18.692vw;
+    font-size: 7.477vw;
+    line-height: 125%;
+    border-radius: 2.804vw;
+  }
+}
+.tg_landing .basket .basket__items .basket__item .basket__item--price {
+  font-weight: 500;
+}
+@media (max-width: 768px) {
+  .tg_landing .basket .basket__items .basket__item .basket__item--price {
+    flex: 1 1 100%;
+    order: 5;
+    margin-top: 5.607vw;
+    font-size: 7.477vw;
+  }
+}
+.tg_landing .basket .basket__items .basket__item .basket__item--delete {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+.tg_landing .basket .basket__items .basket__item .basket__item--delete:hover {
+  opacity: 0.7;
+}
+.tg_landing .basket .basket__items .basket__item .basket__item--delete img {
+  width: 100%;
+  height: 100%;
+}
+@media (max-width: 1919px) {
+  .tg_landing .basket .basket__items .basket__item .basket__item--delete {
+    width: 2.084vw;
+    height: 2.084vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .basket .basket__items .basket__item .basket__item--delete {
+    width: 9.346vw;
+    height: 9.346vw;
+    order: 4;
+    margin-top: 5.607vw;
+  }
+}
+.tg_landing .basket .basket__total {
+  margin-top: 40px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-family: 'Mabry Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 125%;
+  color: #000000;
+  margin-right: 108px;
+}
+@media (max-width: 1919px) {
+  .tg_landing .basket .basket__total {
+    margin-top: 2.084vw;
+    font-size: 1.668vw;
+    margin-right: 5.628vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .basket .basket__total {
+    margin-top: 5.607vw;
+    justify-content: space-between;
+    font-size: 5.607vw;
+    line-height: 133%;
+    margin-right: 0;
+  }
+}
+.tg_landing .basket .basket__total .basket__total--price {
+  font-weight: 500;
+  display: inline-block;
+  margin-left: 80px;
+}
+@media (max-width: 1919px) {
+  .tg_landing .basket .basket__total .basket__total--price {
+    margin-left: 4.169vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .basket .basket__total .basket__total--price {
+    margin-left: 0;
+    font-size: 7.477vw;
+    line-height: 125%;
+  }
+}
+.tg_landing .basket .basket__btn {
+  cursor: pointer;
+  width: 680px;
+  height: 80px;
+  margin-top: 40px;
+  margin-left: auto;
+  background: #284CA6;
+  border-radius: 8px;
+  font-family: 'Mabry Pro';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 125%;
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 1919px) {
+  .tg_landing .basket .basket__btn {
+    width: 35.435vw;
+    height: 4.169vw;
+    margin-top: 2.084vw;
+    border-radius: 0.417vw;
+    font-size: 1.668vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .basket .basket__btn {
+    margin-top: 5.607vw;
+    width: 100%;
+    height: 14.953vw;
+    border-radius: 1.869vw;
+    line-height: 133%;
+    font-size: 5.607vw;
+  }
+}
+.tg_landing .form-contacts-page {
+  margin-top: 120px;
+}
+@media (max-width: 1919px) {
+  .tg_landing .form-contacts-page {
+    margin-top: 6.253vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .form-contacts-page {
+    margin-top: 9.346vw;
+  }
+}
+.tg_landing .form-contacts-page__body {
+  margin-top: 30px!important;
+}
+@media (max-width: 1919px) {
+  .tg_landing .form-contacts-page__body {
+    margin-top: 1.563vw !important;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .form-contacts-page__body {
+    margin-top: 5.607vw !important;
+  }
+}
+.tg_landing .order {
+  margin-bottom: 40px;
+}
+@media (max-width: 1919px) {
+  .tg_landing .order {
+    margin-bottom: 2.084vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .order {
+    margin-bottom: 18.692vw;
+  }
+}
+.tg_landing .order__choose-file-slide {
+  height: 100%;
+  display: flex;
+  gap: 40px;
+}
+@media (max-width: 1919px) {
+  .tg_landing .order__choose-file-slide {
+    gap: 2.084vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .order__choose-file-slide {
+    flex-direction: column;
+  }
+}
+.tg_landing .order__choose-file-slide input[type="file"] {
+  display: none;
+}
+.tg_landing .order__choose-file-slide .order__input-file {
+  border: 2px solid #284CA6;
+  border-radius: 8px;
+  flex: 0 1 300px;
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease 0s;
+}
+@media (max-width: 1919px) {
+  .tg_landing .order__choose-file-slide .order__input-file {
+    flex: 0 1 15.633vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .order__choose-file-slide .order__input-file {
+    flex: 0 1 auto;
+    min-height: 14.953vw;
+  }
+}
+.tg_landing .order__choose-file-slide .order__input-file:hover {
+  opacity: 0.7;
+}
+.tg_landing .order__choose-file-slide .order__input-file::before {
+  content: 'Выберите файл';
+  position: absolute;
+  white-space: nowrap;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 133%;
+  color: #000000;
+}
+@media (max-width: 1919px) {
+  .tg_landing .order__choose-file-slide .order__input-file::before {
+    font-size: 1.251vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .order__choose-file-slide .order__input-file::before {
+    font-size: 4.673vw;
+  }
+}
+.tg_landing .order__choose-file-slide .order__input-text {
+  width: 100%;
+  min-height: 100%;
+}
+.tg_landing .order__choose-file-slide .order__input-text input {
+  border: 2px solid #D9D9D9;
+  border-radius: 8px;
+  padding: 0 32px;
+  height: 100%;
+  width: 100%;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 114%;
+  letter-spacing: 0.05em;
+  color: #727272;
+}
+@media (max-width: 1919px) {
+  .tg_landing .order__choose-file-slide .order__input-text input {
+    padding: 0 1.668vw;
+    font-size: 1.459vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .order__choose-file-slide .order__input-text input {
+    font-size: 4.673vw;
+  }
+}
+.tg_landing .order__choose-file-slide span {
+  display: flex;
+  align-items: center;
+  flex: 0 1 50%;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 120%;
+  color: #727272;
+}
+@media (max-width: 1919px) {
+  .tg_landing .order__choose-file-slide span {
+    font-size: 1.042vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .order__choose-file-slide span {
+    font-size: 4.673vw;
+  }
+}
+.tg_landing .form-contacts-page__label {
+  font-family: 'Mabry Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 133%;
+  color: #000000;
+}
+@media (max-width: 1919px) {
+  .tg_landing .form-contacts-page__label {
+    font-size: 1.251vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .form-contacts-page__label {
+    line-height: 160%;
+    font-size: 4.673vw;
+  }
+}
+.tg_landing .form-contacts-page__right {
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 1919px) {
+  .tg_landing .form-contacts-page__right {
+    padding: 0 2.084vw;
+  }
+}
+.tg_landing .form-contacts-page__right > span {
+  margin-top: 40px;
+  display: block;
+  font-family: 'Mabry Pro';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 133%;
+  color: #000000;
+}
+@media (max-width: 1919px) {
+  .tg_landing .form-contacts-page__right > span {
+    margin-top: 2.084vw;
+    font-size: 1.251vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .form-contacts-page__right > span {
+    line-height: 160%;
+    font-size: 4.673vw;
+  }
+}
+.tg_landing .form-contacts-page__message {
+  margin-top: 40px;
+  padding: 0!important;
+  height: auto!important;
+  flex: 1 1 auto!important;
+}
+@media (max-width: 1919px) {
+  .tg_landing .form-contacts-page__message {
+    margin-top: 2.084vw;
+  }
+}
+.tg_landing .order__choose-file-slide {
+  height: 80px!important;
+  margin-top: 16px;
+}
+.tg_landing .order__choose-file-slide span {
+  font-weight: 300;
+}
+@media (max-width: 768px) {
+  .tg_landing .order__choose-file-slide span {
+    margin-top: 1.7vw;
+  }
+}
+@media (max-width: 1919px) {
+  .tg_landing .order__choose-file-slide {
+    height: 4.169vw !important;
+    margin-top: 0.834vw;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .order__choose-file-slide {
+    margin-top: 1.869vw;
+    height: auto !important;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .form-contacts-page__btn-wrapper {
+    margin-top: 1.7vw;
+  }
+}
+.tg_landing .form-contacts-page__click {
+  padding: 10px 8px;
+}
+@media (max-width: 1919px) {
+  .tg_landing .form-contacts-page__click {
+    padding: 0.521vw 0.417vw;
+  }
+}
+.tg_landing .form-contacts-page__data-text {
+  font-weight: 300!important;
+}
+@media (max-width: 768px) {
+  .tg_landing .form-contacts-page__label-desktop {
+    display: none;
+  }
+}
+.tg_landing .form-contacts-page__label-mobile {
+  display: none;
+}
+@media (max-width: 768px) {
+  .tg_landing .form-contacts-page__label-mobile {
+    display: block;
+  }
+}
+.tg_landing .form-contacts-page__items {
+  display: flex;
+  flex-direction: column;
+}
+@media (max-width: 768px) {
+  .tg_landing .form-contacts-page__items .form-contacts-page__item1 {
+    order: 1!important;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .form-contacts-page__items .form-contacts-page__item2 {
+    order: 2 !important;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .form-contacts-page__items .form-contacts-page__item3 {
+    order: 3 !important;
+  }
+}
+@media (max-width: 768px) {
+  .tg_landing .form-contacts-page__items .form-contacts-page__item4 {
+    order: 4 !important;
+  }
+}
+.tg_landing input,
+.tg_landing textarea {
+  outline: none;
+  font-weight: 300!important;
+}

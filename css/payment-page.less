@@ -1,0 +1,534 @@
+
+.payment-page-form {
+	display: flex;
+	margin: 40px -40px 0;
+	@media (max-width: 1919px){
+		margin: 2.084vw -2.084vw 0;
+	}
+	@media (max-width: 768px){
+		flex-wrap: wrap;
+		margin: 5.607vw -2.084vw 0;
+	}
+
+	&__item {
+		flex: 0 1 50%;
+		padding: 0 40px;
+		display: flex;
+		flex-direction: column;
+		@media (max-width: 1919px){
+			padding: 0 2.084vw;
+		}
+		@media (max-width: 768px){
+			flex: 0 0 100%;
+			&:not(:first-child) {
+				margin-top: 3.738vw;
+			}
+		}
+
+		label {
+			font-family: 'Mabry Pro';
+			font-style: normal;
+			font-weight: 300;
+			font-size: 24px;
+			line-height: 32px;
+			color: #000000;
+			@media (max-width: 1919px){
+				font-size: 1.251vw;
+				line-height: 1.668vw;
+			}
+			@media (max-width: 768px){
+				font-size: 4.673vw;
+				line-height: 160%;
+			}
+		}
+		input {
+			margin-top: 16px;
+			padding: 0 32px;
+			width: 100%;
+			height: 80px;
+			border: 2px solid #D9D9D9;
+			border-radius: 8px;
+			outline: none;
+			font-weight: 400;
+			font-size: 28px;
+			line-height: 114%;
+			letter-spacing: 0.05em;
+			color: #000000;
+			@media (max-width: 1919px){
+				height: 4.169vw;
+				margin-top: 0.834vw;
+				padding: 0 1.668vw;
+				border: 0.104vw solid #D9D9D9;
+				border-radius: 0.417vw;
+				font-size: 1.459vw;
+			}
+			@media (max-width: 768px){
+				height: 14.953vw;
+				margin-top: 1.869vw;
+				padding: 0 7.477vw;
+				border: 0.467vw solid #D9D9D9;
+				border-radius: 1.869vw;
+				font-size: 6.542vw;
+				line-height: 114%;
+			}
+		}
+		&-big {
+			margin-top: 40px;
+			flex: 1 1 100%;
+			@media (max-width: 1919px){
+				margin-top: 2.084vw;
+			}
+			textarea {
+				width: 100%;
+				height: 160px;
+				margin-top: 16px;
+				padding: 32px;
+				border: 2px solid #D9D9D9;
+				border-radius: 8px;
+				outline: none;
+				font-weight: 400;
+				font-size: 28px;
+				line-height: 114%;
+				letter-spacing: 0.05em;
+				color: #000000;
+			
+				@media (max-width: 1919px) {
+					height: 8.338vw;
+					margin-top: 0.834vw;
+					padding: 0 1.668vw;
+					border: 0.104vw solid #D9D9D9;
+					border-radius: 0.417vw;
+					font-size: 1.459vw;
+				}
+				@media (max-width: 768px){
+					height: 29.907vw;
+					margin-top: 1.869vw;
+					padding: 5vw 7.477vw;
+					border: 0.467vw solid #D9D9D9;
+					border-radius: 1.869vw;
+					font-size: 6.542vw;
+					line-height: 114%;
+				}
+			}
+		}
+		&__btn {
+
+		}
+	}
+	&-data {
+		flex-wrap: wrap;
+		.form__item {
+
+		}
+	}
+}
+
+.payment-page {
+	.checkbox__input {
+		display: none;
+	}
+	
+	.checkbox__input:checked+.checkbox__label::after {
+		transform: scale(1);
+	}
+	.checkbox__input:checked+.checkbox__label::before {
+		background-color: #284CA6;
+		border: 2px solid #284CA6;
+		@media (max-width: 1919px){
+			border: 0.104vw solid #284CA6;
+		}
+		@media (max-width: 768px){
+			border: 0.467vw solid #284CA6;
+		}
+	}
+	
+	.checkbox__label {
+		display: inline-flex;
+		align-items: center;
+		position: relative;
+		cursor: pointer;
+	}
+	
+	.checkbox__label::before {
+		content: "";
+		align-self: flex-start;
+		flex: 0 0 32px;
+		height: 32px;
+		background-color: #ffffff;
+		margin: 0px 16px 0px 0px;
+		border: 2px solid #D9D9D9;
+		border-radius: 8px;
+		transition: all 0.2s ease 0s;
+		@media (max-width: 1919px){
+			flex: 0 0 1.668vw;
+			height: 1.668vw;
+			margin: 0 0.834vw 0 0;
+			border: 0.104vw solid #D9D9D9;
+			border-radius: 0.417vw;
+		}
+		@media (max-width: 768px){
+			flex: 0 0 7.477vw;
+			height: 7.477vw;
+			margin: 0 3.738vw 0 0;
+			border: 0.467vw solid #D9D9D9;
+			border-radius: 1.869vw;
+		}
+	}
+	
+	.checkbox__label::after {
+		transition: transform 0.3s ease 0s;
+		content: "";
+		width: 12px;
+		height: 16px;
+		position: absolute;
+		top: 8px;
+		left: 10px;
+		background: url('../img/arrow.svg') center / 100% 100% no-repeat;
+		border-radius: 8px;
+		transform: scale(0);
+		@media (max-width: 1919px){
+			width: 0.625vw;
+			height: 0.834vw;
+			top: 0.417vw;
+			left: 0.521vw;
+			border-radius: 0.417vw;
+		}
+		@media (max-width: 768px){
+			width: 2.804vw;
+			height: 3.738vw;
+			top: 1.869vw;
+			left: 2.336vw;
+			border-radius: 0.417vw;
+		}
+	}
+
+	.checkbox__label a {
+		font-family: 'Mabry Pro';
+		font-style: normal;
+		font-weight: 300;
+		font-size: 24px;
+		line-height: 32px;
+		color: #000000;
+		@media (max-width: 1919px){
+			font-size: 1.251vw;
+			line-height: 1.668vw;
+		}
+		@media (max-width: 768px){
+			font-size: 4.673vw;
+			line-height: 120%;
+		}
+	}
+}
+
+
+
+/* payment-page-pay */
+.payment-page-pay {
+	.payment-page-pay__header {
+		padding-top: 80px;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		@media (max-width: 1919px){
+			padding-top: 4.169vw;
+		}
+		@media (max-width: 768px){
+			padding-top: 9.346vw;
+			flex-direction: column;
+			align-items: flex-start;
+		}
+		.payment-page-pay__title {
+			line-height: 80px;
+			@media (max-width: 1919px){
+				line-height: 4.169vw;
+			}
+			@media (max-width: 768px){
+				line-height: 100%;
+			}
+			&-main {
+				@media (max-width: 768px){
+					font-size: 13.084vw;
+				}
+			}
+		}
+		.payment-page-pay__icon {
+			width: 322px;
+			height: 80px;
+			@media (max-width: 1919px){
+				width: 16.780vw;
+				height: 4.169vw;
+			}
+			@media (max-width: 768px){
+				width: 52.570vw;
+				height: 13.084vw;
+				margin-top: 3.738vw;
+			}
+			img {
+				width: 100%;
+				height: 100%;
+			}
+		}
+	}
+
+	.payment-page-pay__text {
+		max-width: 928px;
+		margin-top: 24px;
+		font-family: 'Mabry Pro';
+		font-style: normal;
+		font-weight: 400;
+		font-size: 32px;
+		line-height: 48px;
+		color: #000000;
+		@media (max-width: 1919px){
+			max-width: 48.359vw;
+			margin-top: 1.251vw;
+			font-size: 1.668vw;
+			line-height: 2.501vw;
+		}
+		@media (max-width: 768px){
+			max-width: 80vw;
+			margin-top: 5.607vw;
+			font-size: 5.607vw;
+			line-height: 133%;
+		}
+	}
+}
+
+
+.payment-page__groups {}
+
+.groups-payment-page {
+	margin-top: 80px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	background: #F1F4F7;
+	@media (max-width: 1919px){
+		margin-top: 4.169vw;
+		padding-top: 4.169vw;
+		padding-bottom: 4.169vw;
+	}
+	@media (max-width: 768px){
+		margin-top: 9.346vw;
+		padding-top: 9.346vw;
+		padding-bottom: 9.346vw;
+	}
+	.groups-payment-page__header {
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		@media (max-width: 768px){
+			flex-direction: column;
+			align-items: flex-start;
+		}
+		.groups-payment-page__title {}
+
+		.groups-payment-page__btns {
+			display: flex;
+			align-items: center;
+			@media (max-width: 768px){
+				margin-top: 3.738vw;
+				margin-left: -3.738vw;
+			}
+			.groups-payment-page__btn {
+				cursor: pointer;
+				margin-left: 24px;
+				font-family: 'Mabry Pro';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 24px;
+				line-height: 32px;
+				text-align: center;
+				color: #727272;
+				background-color: transparent;
+				@media (max-width: 1919px){
+					margin-left: 1.251vw;
+					font-size: 1.251vw;
+					line-height: 1.668vw;
+				}
+				@media (max-width: 768px){
+					margin-left: 3.738vw;
+					font-size: 4.673vw;
+					line-height: 120%;
+				}
+			}
+			.groups-payment-page__btn.active {
+				color: #000000;
+			}
+		}
+	}
+	.groups-payment-page__items {
+		display: flex;
+		flex-wrap: wrap;
+		margin: 12px -30px 0;
+		@media (max-width: 1919px){
+			margin: 0.625vw -1.563vw 0;
+		}
+		&-desktop {
+			@media (max-width: 768px){
+				display: none;
+			}
+		}
+		&-mobile {
+			display: none;
+			@media (max-width: 768px){
+				display: block;
+			}
+		}
+		.form__item {
+			width: 33.333%;
+			height: 32px;
+			padding: 0 30px;
+			margin-top: 16px;
+			transition: all 0.3s ease 0s;
+			&:hover{
+				opacity: 0.7;
+			}
+			@media (max-width: 1919px){
+				height: 1.668vw;
+				padding: 0 1.563vw;
+				margin-top: 0.834vw;
+			}
+			@media (max-width: 768px){
+				width: 100%;
+				height: 7.477vw;
+				margin-top: 3.738vw;
+				&:hover {
+					opacity: 1;
+				}
+			}
+		}
+	}
+}
+
+
+
+.data-payment-page {
+	padding-top: 80px;
+	padding-bottom: 64px;
+	@media (max-width: 1919px){
+		padding-top: 4.169vw;
+		padding-bottom: 3.335vw;
+	}
+	@media (max-width: 768px){
+		padding-top: 9.346vw;
+		padding-bottom: 18.692vw;
+	}
+}
+.payment-page-form-data {
+	.payment-page-form__item {
+		order: -1;
+	}
+	.payment-page-form__btn {
+		order: 1;
+	}
+	.form__item-big {
+		order: 2;
+	}
+	.form__item-big {
+		margin-top: 40px;
+		flex: 0 1 50%;
+		padding: 0 40px;
+		@media (max-width: 1919px){
+			margin-top: 2.084vw;
+			padding: 0 2.084vw;
+		}
+		@media (max-width: 768px){
+			flex: 0 0 100%;
+			margin-top: 3.738vw;
+		}
+		.checkbox__label {
+			&::before{
+				content:'';
+				margin: 0 24px 0 0;
+				@media (max-width: 1919px){
+					margin: 0 1.251vw 0 0;
+				}
+				@media (max-width: 768px){
+					margin: 0 5.607vw 0 0;
+				}
+			}
+		}
+		span {
+			display: block;
+			font-family: 'Mabry Pro';
+			font-style: normal;
+			font-weight: 300;
+			font-size: 20px;
+			line-height: 24px;
+			color: #727272;
+			max-width: 557px;
+			@media (max-width: 1919px){
+				font-size: 1.042vw;
+				line-height: 1.251vw;
+				max-width: 29.026vw;
+			}
+			@media (max-width: 768px){
+				font-size: 4.673vw;
+				line-height: 120%;
+				max-width: 100%;
+			}
+		}
+		a {
+			font-size: 20px;
+			font-weight: 400;
+			color: #284CA6;
+			position: relative;
+			box-shadow: inset 0px -2px #284CA6;
+			@media (max-width: 1919px){
+				font-size: 1.042vw;
+				box-shadow: inset 0px -0.104vw #284CA6;
+			}
+			@media (max-width: 768px){
+				font-size: 4.673vw;
+				box-shadow: inset 0 -0.467vw #284CA6;
+			}
+		}
+	}
+	.payment-page-form__btn {
+		margin-top: 40px;
+		flex: 0 1 50%;
+		padding: 0 40px;
+		@media (max-width: 1919px){
+			margin-top: 2.084vw;
+			padding: 0 2.084vw;
+		}
+		@media (max-width: 768px){
+			flex: 0 0 100%;
+			margin-top: 5.607vw;
+		}
+		&-inner {
+			input {
+				cursor: pointer;
+				transition: all 0.3s ease 0s;
+				&:hover{
+					opacity: 0.7;
+				}
+				width: 100%;
+				height: 80px;
+				background: #284CA6;
+				border-radius: 8px;
+				font-family: 'Mabry Pro';
+				font-style: normal;
+				font-weight: 400;
+				font-size: 32px;
+				line-height: 40px;
+				color: #FFFFFF;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				@media (max-width: 1919px){
+					height: 4.169vw;
+					border-radius: 0.417vw;
+					font-size: 1.668vw;
+					line-height: 2.084vw;
+				}
+				@media (max-width: 768px){
+					height: 14.953vw;
+					border-radius: 1.869vw;
+					font-size: 5.607vw;
+					line-height: 133%;
+				}
+			}
+		}
+	}
+}
